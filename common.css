@@ -1,0 +1,86 @@
+/* FONTS */
+
+@font-face {
+    font-family: LeixoDemo;
+    src: url(./assets/fonts/LEIXO-DEMO.ttf);
+}
+
+@font-face {
+    font-family: FuturaBook;
+    src: url(./assets/fonts/FuturaBookBT.ttf);
+}
+
+:root {
+    --dark-blue: #112A46;
+    --lime-green: #D1EAA3;
+    --pink: #DBC6EB;
+    --black: #141212;
+    --dark-green: #508651;
+    --light-blue: #6994B0;
+    --dark-pink: #EBDBC6;
+    --darker-green: #446A46;
+}
+
+body {
+    background-color: var(--lime-green);
+    overflow-x: hidden;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: FuturaBook, sans-serif;
+}
+
+h1 {
+    font-family: LeixoDemo, sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 80px;
+}
+
+h2 {
+    font-weight: normal;
+    color: var(--dark-blue);
+    font-size: 60px;
+}
+
+p {
+    color: white;
+    font-size: 20px;
+}
+
+nav {
+    display: flex;
+    padding: 30px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.middle-links {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo-link {
+    width: 100px;
+}
+
+.sign-up-link {
+    margin-left: 20px;
+    background-color: rgba(255, 255, 255, 0.69);
+    color: black;
+    padding: 10px;
+    border-radius: 20px;
+}
+
